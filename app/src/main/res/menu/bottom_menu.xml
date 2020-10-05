@@ -8,4 +8,8 @@
         android:id="@+id/nav_contributers"
         android:enabled="true"
         android:title="Contributers" />
+    <item
+        android:id="@+id/nav_about"
+        android:enabled="true"
+        android:title="About" />
 </menu>

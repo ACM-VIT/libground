@@ -17,5 +17,11 @@
         tools:layout="@layout/fragment_contributers"
         android:label="fragment_contributers"
         />
+    <fragment
+        android:name="com.benrostudios.libground.AboutFragment"
+        android:id="@+id/nav_about"
+        tools:layout="@layout/fragment_about"
+        android:label="fragment_about"
+        />
 
 </navigation>
