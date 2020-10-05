@@ -27,11 +27,11 @@
         android:layout_height="wrap_content"
         app:itemHorizontalTranslationEnabled="false"
         app:itemIconSize="25dp"
+        app:itemTextColor="@android:color/white"
         app:labelVisibilityMode="selected"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemTextColor="@android:color/white"
         app:menu="@menu/bottom_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

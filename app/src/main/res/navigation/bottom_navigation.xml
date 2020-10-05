@@ -6,22 +6,19 @@
     app:startDestination="@id/nav_libraries"
     tools:ignore="UnusedNavigation">
     <fragment
-        android:name="com.benrostudios.libground.LibrariesFragment"
         android:id="@+id/nav_libraries"
-        tools:layout="@layout/fragment_libraries"
+        android:name="com.benrostudios.libground.LibrariesFragment"
         android:label="fragment_libraries"
-        />
+        tools:layout="@layout/fragment_libraries" />
     <fragment
-        android:name="com.benrostudios.libground.ContributersFragment"
         android:id="@+id/nav_contributers"
-        tools:layout="@layout/fragment_contributers"
+        android:name="com.benrostudios.libground.ContributersFragment"
         android:label="fragment_contributers"
-        />
+        tools:layout="@layout/fragment_contributers" />
     <fragment
-        android:name="com.benrostudios.libground.AboutFragment"
         android:id="@+id/nav_about"
-        tools:layout="@layout/fragment_about"
+        android:name="com.benrostudios.libground.AboutFragment"
         android:label="fragment_about"
-        />
+        tools:layout="@layout/fragment_about" />
 
 </navigation>
