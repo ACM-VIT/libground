@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_libraries"
+        android:enabled="true"
+        android:title="Libraries" />
+    <item
+        android:id="@+id/nav_contributers"
+        android:enabled="true"
+        android:title="Contributers" />
+    <item
+        android:id="@+id/nav_about"
+        android:enabled="true"
+        android:title="About" />
+</menu>
