@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
 
@@ -29,6 +30,8 @@
         app:itemIconSize="25dp"
         app:itemTextColor="@android:color/white"
         app:labelVisibilityMode="selected"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@drawable/icon_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

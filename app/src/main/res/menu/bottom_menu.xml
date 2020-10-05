@@ -3,13 +3,16 @@
     <item
         android:id="@+id/nav_libraries"
         android:enabled="true"
-        android:title="Libraries" />
+        android:title="Libraries"
+        android:icon="@drawable/ic_libraries" />
     <item
-        android:id="@+id/nav_contributers"
+        android:id="@+id/nav_contributors"
         android:enabled="true"
-        android:title="Contributers" />
+        android:title="Contributors"
+        android:icon="@drawable/ic_contributors" />
     <item
         android:id="@+id/nav_about"
         android:enabled="true"
-        android:title="About" />
+        android:title="About"
+        android:icon="@drawable/ic_about" />
 </menu>
