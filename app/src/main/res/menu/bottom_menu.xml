@@ -5,9 +5,9 @@
         android:enabled="true"
         android:title="Libraries" />
     <item
-        android:id="@+id/nav_contributers"
+        android:id="@+id/nav_contributors"
         android:enabled="true"
-        android:title="Contributers" />
+        android:title="Contributors" />
     <item
         android:id="@+id/nav_about"
         android:enabled="true"

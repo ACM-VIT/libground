@@ -11,10 +11,10 @@
         android:label="fragment_libraries"
         tools:layout="@layout/fragment_libraries" />
     <fragment
-        android:id="@+id/nav_contributers"
-        android:name="com.benrostudios.libground.ContributersFragment"
-        android:label="fragment_contributers"
-        tools:layout="@layout/fragment_contributers" />
+        android:id="@+id/nav_contributors"
+        android:name="com.benrostudios.libground.ContributorsFragment"
+        android:label="fragment_contributors"
+        tools:layout="@layout/fragment_contributors" />
     <fragment
         android:id="@+id/nav_about"
         android:name="com.benrostudios.libground.AboutFragment"
