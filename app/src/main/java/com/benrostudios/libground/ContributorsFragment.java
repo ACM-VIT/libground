@@ -25,12 +25,6 @@ public class ContributorsFragment extends Fragment {
     }
 
 
-    // TODO: Rename and change types and number of parameters
-    public static ContributorsFragment newInstance(String param1, String param2) {
-        ContributorsFragment fragment = new ContributorsFragment();
-        return fragment;
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -41,10 +35,8 @@ public class ContributorsFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         for (int i = 0; i < 10; i++)
             contributors.add(new Contributors("Contributor name", "Github ID", "LinkedIn ID"));
-
         contributorsRecyclerView = view.findViewById(R.id.contributors_rv);
         LinearLayoutManager contributionsLinearLayoutManager = new LinearLayoutManager(getContext());
         contributionsLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
