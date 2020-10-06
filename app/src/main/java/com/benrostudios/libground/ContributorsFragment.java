@@ -35,8 +35,7 @@ public class ContributorsFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        for (int i = 0; i < 10; i++)
-            contributors.add(new Contributors("Contributor name", "Github ID", "LinkedIn ID"));
+        contributors.add(new Contributors(getString(R.string.contributor_name), getString(R.string.github_id), getString(R.string.linkedin_id)));
         contributorsRecyclerView = view.findViewById(R.id.contributors_rv);
         LinearLayoutManager contributionsLinearLayoutManager = new LinearLayoutManager(getContext());
         contributionsLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);

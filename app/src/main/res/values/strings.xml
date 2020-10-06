@@ -11,4 +11,8 @@
 </string>
     <string name="about_us">About Us</string>
     <string name="libraries">Libraries</string>
+    <string name="contributor_name">Contributor Name</string>
+    <string name="contributors">Contributors</string>
+    <string name="github_id">Github ID</string>
+    <string name="linkedin_id">LinkedIn ID</string>
 </resources>

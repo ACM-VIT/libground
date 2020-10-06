@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:background="@color/colorPrimaryDark"
-    tools:context=".LibrariesFragment">
+    android:layout_height="match_parent">
 
-   <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="@string/libraries"
-       android:fontFamily="@font/cerebri_sans_bold"
-       android:layout_marginLeft="16dp"
-       android:layout_marginVertical="24dp"
-       android:textSize="36sp"
-       android:textColor="@color/colorAccent"
-       android:textStyle="bold"/>
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/library_list"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:textColor="@android:color/white"
-        android:text="Libraries Fragment"
-        android:textSize="20sp"
-        tools:listitem="@layout/library_card_item"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        tools:context=".LibrariesFragment">
 
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="24dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/cerebri_sans_bold"
+            android:text="@string/libraries"
+            android:textColor="@color/colorAccent"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/library_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Libraries Fragment"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/library_card_item" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
 
 
