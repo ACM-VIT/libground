@@ -14,7 +14,7 @@ Android library playground of awesome libraries!
     <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
    </a>
     <img alt="license" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" />
-  <img alt="license" src="https://img.shields.io/github/workflow/status/ACM-VIT/libground/Android+App+Build?style=for-the-badge" />
+  <img alt="license" src="https://img.shields.io/github/workflow/status/ACM-VIT/libground/libground-build?style=for-the-badge" />
 </p>
 
 
