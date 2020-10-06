@@ -49,8 +49,8 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
 
     public void goToLibraryActivity(Context context, int position) {
         final Intent intent;
-        switch (position) {
-            case 0:
+        switch (libraryArrayList.get(position)) {
+            case "Glide":
                 intent = new Intent(context, GlideActivity.class);
                 break;
             default:
