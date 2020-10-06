@@ -2,11 +2,11 @@
     <string name="app_name">Libground</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="about_ACM">"\tACM-VIT, one of the most reputed and distinguished technical chapter in VIT, Vellore has been working with vision and determination since it’s inception in 2009, with the aspirations of advancement of computer science as a science and a profession. We are not just an organization, we are a family, united by one cause, working towards making technology more accessible much like our parent organization, ACM.
+    <string name="about_ACM">"ACM-VIT, one of the most reputed and distinguished technical chapter in VIT, Vellore has been working with vision and determination since it’s inception in 2009, with the aspirations of advancement of computer science as a science and a profession. We are not just an organization, we are a family, united by one cause, working towards making technology more accessible much like our parent organization, ACM.
 
-\tACM-VIT has been working on projects related to graphic designing, web development, machine learning and app development and has been organizing events and workshop for the same. Apart from this, ACM-VIT also boasts of its own research wing, the only chapter in VIT to have that.
+ACM-VIT has been working on projects related to graphic designing, web development, machine learning and app development and has been organizing events and workshop for the same. Apart from this, ACM-VIT also boasts of its own research wing, the only chapter in VIT to have that.
 
-\tTechnology is their cause, objective, vision and mission. Ask why? Look at our motto, “Because Technology Matters”."
+Technology is their cause, objective, vision and mission. Ask why? Look at our motto, “Because Technology Matters”."
 
 </string>
     <string name="about_us">About Us</string>
