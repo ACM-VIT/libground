@@ -19,7 +19,7 @@
             android:layout_marginLeft="20dp"
             android:fontFamily="@font/cerebri_sans_bold"
             android:gravity="top"
-            android:text="@string/contributors"
+            android:text="Contributors"
             android:textColor="@color/colorAccent"
             android:textSize="36sp"
             android:textStyle="bold"
