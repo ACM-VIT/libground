@@ -101,7 +101,7 @@
                         android:layout_height="40dp"
                         android:layout_gravity="center"
                         android:layout_marginRight="20dp"
-                        android:src="@drawable/ic_linkedin" />
+                        android:src="@drawable/ic_linkedin_2" />
 
                 </LinearLayout>
 

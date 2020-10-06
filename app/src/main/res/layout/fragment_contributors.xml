@@ -11,14 +11,30 @@
         android:background="#092239"
         tools:context=".ContributorsFragment">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contributers"
+            android:fontFamily="@font/cerebri_sans_bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="24dp"
+            android:gravity="top"
+            android:textSize="36sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/contributions_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"/>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/contributors_rv"
             android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contributions_header"
             tools:listitem="@layout/contributors_list_item" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
