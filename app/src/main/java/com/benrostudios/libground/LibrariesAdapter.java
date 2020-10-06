@@ -17,13 +17,15 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.ViewHolder> {
     ArrayList<String> libraryArrayList;
-    public LibrariesAdapter(ArrayList<String> libraryArrayList){
-        this.libraryArrayList=libraryArrayList;
+
+    public LibrariesAdapter(ArrayList<String> libraryArrayList) {
+        this.libraryArrayList = libraryArrayList;
     }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.library_card_item,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.library_card_item, parent, false);
         return new ViewHolder(view);
     }
 
@@ -35,8 +37,8 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
         holder.libraryCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goToLibraryActivity(context,position);
-        }
+                goToLibraryActivity(context, position);
+            }
         });
     }
 
@@ -45,27 +47,28 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
         return libraryArrayList.size();
     }
 
-    public void goToLibraryActivity(Context context,int position){
-            final Intent intent;
-            switch(position){
-                case 0:
-                    intent=new Intent(context,GlideActivity.class);
-                    break;
-                default:
-                    intent=new Intent(context,MainActivity.class);
-            }
-            context.startActivity(intent);
-
+    public void goToLibraryActivity(Context context, int position) {
+        final Intent intent;
+        switch (position) {
+            case 0:
+                intent = new Intent(context, GlideActivity.class);
+                break;
+            default:
+                intent = new Intent(context, MainActivity.class);
         }
+        context.startActivity(intent);
+
+    }
 
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
         TextView libraryName;
         MaterialCardView libraryCard;
-        public ViewHolder(View view){
+
+        public ViewHolder(View view) {
             super(view);
-            libraryName=view.findViewById(R.id.library_name);
-            libraryCard=view.findViewById(R.id.library_card);
+            libraryName = view.findViewById(R.id.library_name);
+            libraryCard = view.findViewById(R.id.library_card);
 
         }
     }
