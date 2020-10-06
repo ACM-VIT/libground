@@ -1,0 +1,23 @@
+name: AppBrickie
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: App Brickie
+    steps:
+      - uses: actions/checkout@v2
+      - name: AppBrickie
+        id: appBrickieBuild
+        uses: DarthBenro008/app-brickie@v3.0
+        with:
+          type: "native"
+          chatid: "btthljl0jev7q53nbbng"
+          packagename: "Libground"
+      - name: Get Automated Result
+        run: echo "${{ steps.appBrickieBuild.outputs.result }}"

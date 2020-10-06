@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/nav_libraries"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/nav_libraries"
+        android:name="com.benrostudios.libground.LibrariesFragment"
+        android:label="fragment_libraries"
+        tools:layout="@layout/fragment_libraries" />
+    <fragment
+        android:id="@+id/nav_contributors"
+        android:name="com.benrostudios.libground.ContributorsFragment"
+        android:label="fragment_contributors"
+        tools:layout="@layout/fragment_contributors" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.benrostudios.libground.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

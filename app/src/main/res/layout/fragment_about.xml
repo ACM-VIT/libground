@@ -1,0 +1,102 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="@color/colorPrimaryDark">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="About ACM-VIT Fragment"
+        android:textSize="20sp"
+        android:paddingBottom="30dp">
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/about_us"
+            android:textColor="@color/colorAccent"
+            android:textSize="36sp"
+            android:fontFamily="@font/cerebri_sans_bold"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/about_acm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/about_ACM"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/cerebri_sans_regular"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about" />
+
+        <ImageView
+            android:id="@+id/insta_link"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/ic_instagram"
+            app:layout_constraintEnd_toStartOf="@+id/facebook"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_acm" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_facebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/insta_link"
+            app:layout_constraintTop_toBottomOf="@+id/about_acm" />
+
+        <ImageView
+            android:id="@+id/linkedIn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/ic_linkedin"
+            app:layout_constraintEnd_toStartOf="@+id/twitter"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/facebook" />
+
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_twitter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/linkedIn"
+            app:layout_constraintTop_toBottomOf="@+id/facebook" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
