@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.benrostudios.libground">
+    package="com.acmvit.libground">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".GlideActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.acmvit.libground.GlideActivity" />
+        <activity android:name="com.acmvit.libground.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

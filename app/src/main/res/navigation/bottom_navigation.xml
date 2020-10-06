@@ -7,17 +7,17 @@
     tools:ignore="UnusedNavigation">
     <fragment
         android:id="@+id/nav_libraries"
-        android:name="com.benrostudios.libground.LibrariesFragment"
+        android:name="com.acmvit.libground.LibrariesFragment"
         android:label="fragment_libraries"
         tools:layout="@layout/fragment_libraries" />
     <fragment
         android:id="@+id/nav_contributors"
-        android:name="com.benrostudios.libground.ContributorsFragment"
+        android:name="com.acmvit.libground.ContributorsFragment"
         android:label="fragment_contributors"
         tools:layout="@layout/fragment_contributors" />
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.benrostudios.libground.AboutFragment"
+        android:name="com.acmvit.libground.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
 

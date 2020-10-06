@@ -1,4 +1,4 @@
-package com.benrostudios.libground;
+package com.acmvit.libground;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.ViewHolder> {
     ArrayList<String> libraryArrayList;
