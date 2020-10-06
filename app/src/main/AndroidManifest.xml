@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name="com.acmvit.libground.GlideActivity" />
+        <activity android:name="com.acmvit.libground.ShimmerActivity" />
         <activity android:name="com.acmvit.libground.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

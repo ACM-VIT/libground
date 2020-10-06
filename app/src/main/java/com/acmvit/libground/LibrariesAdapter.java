@@ -14,6 +14,9 @@ import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.GLIDE;
+import static com.acmvit.libground.Constants.SHIMMER;
+
 public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.ViewHolder> {
     ArrayList<String> libraryArrayList;
 
@@ -49,8 +52,11 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
     public void goToLibraryActivity(Context context, int position) {
         final Intent intent;
         switch (libraryArrayList.get(position)) {
-            case "Glide":
+            case GLIDE:
                 intent = new Intent(context, GlideActivity.class);
+                break;
+            case SHIMMER:
+                intent = new Intent(context, ShimmerActivity.class);
                 break;
             default:
                 intent = new Intent(context, MainActivity.class);
