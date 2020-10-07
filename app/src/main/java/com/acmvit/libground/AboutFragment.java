@@ -29,7 +29,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.insta_link).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.instagram.com/acmvit/";
+                String url = getString(R.string.url_acmvit_instagram);
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -38,7 +38,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.facebook).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.facebook.com/ACM.VITU";
+                String url = getString(R.string.url_acmvit_facebook);
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -47,7 +47,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.insta_link).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.instagram.com/acmvit/";
+                String url = getString(R.string.url_acmvit_instagram);
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -56,7 +56,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.twitter).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://twitter.com/ACM_VIT";
+                String url = getString(R.string.url_acmvit_twitter);
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -65,7 +65,7 @@ public class AboutFragment extends Fragment {
         root.findViewById(R.id.linkedIn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.linkedin.com/company/acm-vit/";
+                String url = getString(R.string.url_acmvit_linkedin);
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

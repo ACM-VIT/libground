@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cerebri_sans_bold"
-                android:text="Contributor Name"
+                android:text="@string/contributor_name"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp" />
 
@@ -51,7 +51,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/cerebri_sans_regular"
-                        android:text="Github ID" />
+                        android:text="@string/github_id" />
 
                     <View
                         android:layout_width="0dp"
@@ -88,7 +88,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="LinkedIn ID" />
+                        android:text="@string/linkedin_id" />
 
                     <View
                         android:layout_width="0dp"
