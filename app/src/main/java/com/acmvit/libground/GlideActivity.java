@@ -27,7 +27,7 @@ public class GlideActivity extends AppCompatActivity {
         setContentView(R.layout.activity_glide);
 
         glideImage = findViewById(R.id.glide_image);
-        imgLink="https://i.pcmag.com/imagery/lineups/01peUn6ncZ6gL0dEpO6rsW0-1.1569492716.fit_lim.size_1200x630.jpg";
+        imgLink = getString(R.string.glide_image_url);
 
         progressBar = (ProgressBar) findViewById(R.id.progress);
 

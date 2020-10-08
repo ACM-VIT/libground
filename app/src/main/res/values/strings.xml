@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Libground</string>
+    <string name="glide">Glide</string>
+    <string name="implementation">Implementation</string>
+    <string name="contributor_name">Contributor Name</string>
+    <string name="github_id">Github ID</string>
+    <string name="linkedin_id">LinkedIn ID</string>
+    <string name="about_acm_vit_fragment">About ACM-VIT Fragment</string>
+    <string name="about_us">About Us</string>
+    <string name="contributors">Contributors</string>
+    <string name="libraries">Libraries</string>
+    <string name="libraries_fragment">Libraries Fragment</string>
+    <string name="glide_support_detail">Glide supports fetching, decoding, and displaying video stills, images, and animated GIFs. It\'s primary focus is on making scrolling any kind of a list of images as smooth and fast as possible</string>
+    <string name="glide_sample">Here is an example which depicts the usage of Glide for fetching and displaying the images from the Internet</string>
+    <string name="about_us_detail">ACM-VIT, one of the most reputed and distinguished technical chapter in VIT, Vellore has been working with vision and determination since it’s inception in 2009, with the aspirations of advancement of computer science as a science and a profession. We are not just an organization, we are a family, united by one cause, working towards making technology more accessible much like our parent organization, ACM.\n\nACM-VIT has been working on projects related to graphic designing, web development, machine learning and app development and has been organizing events and workshop for the same. Apart from this, ACM-VIT also boasts of its own research wing, the only chapter in VIT to have that.\n\nTechnology is their cause, objective, vision and mission. Ask why? Look at our motto, “Because Technology Matters”.</string>
+    <string name="url_acmvit_instagram">https://www.instagram.com/acmvit/</string>
+    <string name="url_acmvit_facebook">https://www.facebook.com/ACM.VITU</string>
+    <string name="url_acmvit_twitter">https://twitter.com/ACM_VIT</string>
+    <string name="url_acmvit_linkedin">https://www.linkedin.com/company/acm-vit/</string>
+    <string name="glide_image_url">https://i.pcmag.com/imagery/lineups/01peUn6ncZ6gL0dEpO6rsW0-1.1569492716.fit_lim.size_1200x630.jpg</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
