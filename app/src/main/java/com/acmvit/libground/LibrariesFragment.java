@@ -43,7 +43,7 @@ public class LibrariesFragment extends Fragment {
     }
 
     public void setLibraries() {
-        arrayList.add("Glide");
-        arrayList.add(SHIMMER);
+        arrayList.add(getString(R.string.glide));
+        arrayList.add(getString(R.string.shimmer_title));
     }
 }

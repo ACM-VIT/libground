@@ -22,7 +22,7 @@
             android:fontFamily="@font/cerebri_sans_regular"
             android:gravity="center_vertical"
             android:padding="20dp"
-            android:text="Glide"
+            android:text="@string/glide"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
