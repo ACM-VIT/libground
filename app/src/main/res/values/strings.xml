@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Libground</string>
+
     <string name="glide">Glide</string>
     <string name="implementation">Implementation</string>
     <string name="contributor_name">Contributor Name</string>
@@ -18,5 +19,14 @@
     <string name="url_acmvit_twitter">https://twitter.com/ACM_VIT</string>
     <string name="url_acmvit_linkedin">https://www.linkedin.com/company/acm-vit/</string>
     <string name="glide_image_url">https://i.pcmag.com/imagery/lineups/01peUn6ncZ6gL0dEpO6rsW0-1.1569492716.fit_lim.size_1200x630.jpg</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Shimmer -->
+    <string name="shimmer_title">Shimmer</string>
+    <string name="shimmer_about">
+        Shimmer is an Android library that provides an easy way to add a shimmer effect to any view in your Android app. It is useful as an unobtrusive loading indicator that was originally developed for Facebook Home.
+    </string>
+    <string name="shimmer_implementation">
+        Shimmer for Android is implemented as a layout, which means that you can simply nest any view inside a ShimmerFrameLayout tag, and call to start the animation from your code. That\'s all that is required. The layout will use the values you specify either on the tag (using custom attributes) or programmatically in your code, and generate an animation on the fly.
+    </string>
+
 </resources>

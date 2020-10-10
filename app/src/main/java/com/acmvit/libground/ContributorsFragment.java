@@ -35,12 +35,18 @@ public class ContributorsFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        contributors.add(new Contributors("Brabant Nicolas", "nbrabant", "nicolas-brabant-9210b531"));
+        setContributors();
         contributorsRecyclerView = view.findViewById(R.id.contributors_rv);
         LinearLayoutManager contributionsLinearLayoutManager = new LinearLayoutManager(getContext());
         contributionsLinearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         contributorsRecyclerView.setLayoutManager(contributionsLinearLayoutManager);
         contributorsRecyclerView.setAdapter(new ContributionsAdapter(contributors));
         ViewCompat.setNestedScrollingEnabled(contributorsRecyclerView, false);
+    }
+
+    public void setContributors() {
+        contributors.add(new Contributors("Brabant Nicolas", "nbrabant", "nicolas-brabant-9210b531"));
+        contributors.add(new Contributors("Nowele Rechka", "https://github.com/Nowele", "https://www.linkedin.com/in/nowele/"));
+        contributors.add(new Contributors("Contributor Name", "Github ID", "LinkedIn ID"));
     }
 }
