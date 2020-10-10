@@ -1,16 +1,12 @@
 package com.acmvit.libground;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
-import androidx.recyclerview.widget.RecyclerView;
-
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
@@ -44,6 +40,6 @@ public class LibrariesFragment extends Fragment {
 
     public void setLibraries() {
         arrayList.add(getString(R.string.glide));
-        arrayList.add(getString(R.string.shimmer_title));
+        arrayList.add(SHIMMER);
     }
 }
