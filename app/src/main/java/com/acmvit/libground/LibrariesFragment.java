@@ -14,6 +14,8 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.SHIMMER;
+
 
 public class LibrariesFragment extends Fragment {
     ArrayList<String> arrayList = new ArrayList<>();
@@ -42,6 +44,6 @@ public class LibrariesFragment extends Fragment {
 
     public void setLibraries() {
         arrayList.add("Glide");
-
+        arrayList.add(SHIMMER);
     }
 }
