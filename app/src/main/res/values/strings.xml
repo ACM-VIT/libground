@@ -29,4 +29,8 @@
         Shimmer for Android is implemented as a layout, which means that you can simply nest any view inside a ShimmerFrameLayout tag, and call to start the animation from your code. That\'s all that is required. The layout will use the values you specify either on the tag (using custom attributes) or programmatically in your code, and generate an animation on the fly.
     </string>
 
+    <!-- Lottie -->
+    <string name="lottie_title">Lottie</string>
+    <string name="lottie_support_detail">Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile. With Lottie, designers can create and ship beautiful animations without an engineer painstakingly recreating it by hand.</string>
+    <string name="lottie_implementation">Here is example the usage of lottie animation with json. Just put LottieAnimationView in xml and declare the json file, lottie animation is ready to show! \nLottie animation source: https://lottiefiles.com/35139-claping-animation</string>
 </resources>

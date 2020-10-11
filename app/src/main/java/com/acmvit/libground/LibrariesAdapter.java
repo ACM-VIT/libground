@@ -14,6 +14,7 @@ import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.LOTTIE;
 import static com.acmvit.libground.Constants.SHIMMER;
 
 public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.ViewHolder> {
@@ -56,6 +57,9 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
                 break;
             case SHIMMER:
                 intent = new Intent(context, ShimmerActivity.class);
+                break;
+            case LOTTIE:
+                intent = new Intent(context, LottieActivity.class);
                 break;
             default:
                 intent = new Intent(context, MainActivity.class);
