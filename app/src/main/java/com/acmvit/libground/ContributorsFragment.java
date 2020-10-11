@@ -47,6 +47,7 @@ public class ContributorsFragment extends Fragment {
     public void setContributors() {
         contributors.add(new Contributors("Brabant Nicolas", "nbrabant", "nicolas-brabant-9210b531"));
         contributors.add(new Contributors("Nowele Rechka", "https://github.com/Nowele", "https://www.linkedin.com/in/nowele/"));
+        contributors.add(new Contributors("Nabilla Sabbaha", "nabillasab", "nabillasabbaha"));
         contributors.add(new Contributors("Contributor Name", "Github ID", "LinkedIn ID"));
     }
 }
