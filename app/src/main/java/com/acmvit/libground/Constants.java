@@ -4,4 +4,6 @@ public final class Constants {
 
     public static final String SHIMMER = "Shimmer";
 
+    public static final String LOTTIE = "Lottie";
+
 }
