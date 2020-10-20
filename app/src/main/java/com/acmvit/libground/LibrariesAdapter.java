@@ -10,11 +10,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.acmvit.libground.retrofit.RetrofitActivity;
 import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
 import static com.acmvit.libground.Constants.LOTTIE;
+import static com.acmvit.libground.Constants.RETROFIT;
 import static com.acmvit.libground.Constants.SHIMMER;
 
 public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.ViewHolder> {
@@ -60,6 +62,9 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
                 break;
             case LOTTIE:
                 intent = new Intent(context, LottieActivity.class);
+                break;
+            case RETROFIT:
+                intent = new Intent(context, RetrofitActivity.class);
                 break;
             default:
                 intent = new Intent(context, MainActivity.class);
