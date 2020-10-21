@@ -15,6 +15,7 @@ import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.FAN;
 import static com.acmvit.libground.Constants.LOTTIE;
 import static com.acmvit.libground.Constants.RETROFIT;
 import static com.acmvit.libground.Constants.SHIMMER;
@@ -65,6 +66,9 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
                 break;
             case RETROFIT:
                 intent = new Intent(context, RetrofitActivity.class);
+                break;
+            case FAN:
+                intent = new Intent(context, FastAndroidNetworkingActivity.class);
                 break;
             default:
                 intent = new Intent(context, MainActivity.class);
