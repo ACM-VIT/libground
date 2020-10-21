@@ -8,4 +8,6 @@ public final class Constants {
 
     public static final String RETROFIT = "Retrofit";
 
+    public static final String FAN = "Fast Android Networking";
+
 }
