@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import static com.acmvit.libground.Constants.LOTTIE;
+import static com.acmvit.libground.Constants.RETROFIT;
 import static com.acmvit.libground.Constants.SHIMMER;
 
 
@@ -43,5 +44,6 @@ public class LibrariesFragment extends Fragment {
         arrayList.add(getString(R.string.glide));
         arrayList.add(SHIMMER);
         arrayList.add(LOTTIE);
+        arrayList.add(RETROFIT);
     }
 }
