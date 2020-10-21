@@ -15,6 +15,7 @@ import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.EXO_PLAYER;
 import static com.acmvit.libground.Constants.FAN;
 import static com.acmvit.libground.Constants.LOTTIE;
 import static com.acmvit.libground.Constants.RETROFIT;
@@ -69,6 +70,9 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
                 break;
             case FAN:
                 intent = new Intent(context, FastAndroidNetworkingActivity.class);
+                break;
+            case EXO_PLAYER:
+                intent = new Intent(context, ExoPlayerActivity.class);
                 break;
             default:
                 intent = new Intent(context, MainActivity.class);

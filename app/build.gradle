@@ -57,4 +57,7 @@ dependencies {
 
     //Fast Android Networking
     implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    //ExoPlayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.12.0'
 }
