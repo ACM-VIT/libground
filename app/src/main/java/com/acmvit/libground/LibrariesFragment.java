@@ -43,6 +43,7 @@ public class LibrariesFragment extends Fragment {
     }
 
     public void setLibraries() {
+        arrayList.clear();
         arrayList.add(getString(R.string.glide));
         arrayList.add(SHIMMER);
         arrayList.add(LOTTIE);
