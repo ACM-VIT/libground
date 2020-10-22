@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".FastAndroidNetworkingActivity"></activity>
+        <activity
+            android:name=".ExoPlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" />
+        <activity android:name=".FastAndroidNetworkingActivity" />
         <activity android:name=".retrofit.RetrofitActivity" />
         <activity android:name=".GlideActivity" />
         <activity android:name=".ShimmerActivity" />

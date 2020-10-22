@@ -10,4 +10,6 @@ public final class Constants {
 
     public static final String FAN = "Fast Android Networking";
 
+    public static final String EXO_PLAYER = "ExoPlayer";
+
 }

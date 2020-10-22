@@ -43,4 +43,10 @@
     <string name="fan_title">Fast Android Networking</string>
     <string name="fan_about">Fast Android Networking Library is a powerful library for doing any type of networking in Android applications which is made on top of OkHttp Networking Layer. Fast Android Networking Library takes care of each and everything. So you don\'t have to do anything, just make request and listen for the response.</string>
     <string name="fan_implementation">Here is example of network request to get data from <b>api.quotable.io</b>. FAN library will handle the request and give us a response with multiple options. There are JSONArray, JSONObject, Parsed Object, Parsed Object List. In this case, we use JSONObject as a response.</string>
+
+    <!-- Exo Player-->
+    <string name="media_url_mp4">https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4</string>
+    <string name="exo_title">ExoPlayer</string>
+    <string name="exo_about">ExoPlayer is an application level media player for Android. It provides an alternative to Android’s MediaPlayer API for playing audio and video both locally and over the Internet.</string>
+    <string name="exo_implementation">Here is an example of the usage of ExoPlayer with video from internet.</string>
 </resources>
