@@ -49,4 +49,14 @@
     <string name="exo_title">ExoPlayer</string>
     <string name="exo_about">ExoPlayer is an application level media player for Android. It provides an alternative to Android’s MediaPlayer API for playing audio and video both locally and over the Internet.</string>
     <string name="exo_implementation">Here is an example of the usage of ExoPlayer with video from internet.</string>
+
+    <!-- Biometric Prompt -->
+    <string name="biometric_title">Biometric Prompt</string>
+    <string name="biometric_about">Biometric authentication is an extension of fingerprint authentication. A biometric API is far more advanced and straightforward to integrate when compared to its predecessor.</string>
+    <string name="biometric_implementation">Here is an example of the usage of Biometric Prompt using Fingerprint sensor.</string>
+    <string name="biometric_available">You can use the fingerprint sensor</string>
+    <string name="biometric_no_hardware">Your device don\'t have fingerprint sensor</string>
+    <string name="biometric_unavailable">The fingerprint sensor is currently unavailable</string>
+    <string name="biometric_none_enrolled">Your device don\'t have any fingerprint saved, please check your security settings</string>
+    <string name="biometric_button_title">Open Biometric Dialog</string>
 </resources>

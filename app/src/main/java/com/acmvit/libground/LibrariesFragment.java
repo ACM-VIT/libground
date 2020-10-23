@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.BIOMETRIC;
 import static com.acmvit.libground.Constants.EXO_PLAYER;
 import static com.acmvit.libground.Constants.FAN;
 import static com.acmvit.libground.Constants.LOTTIE;
@@ -50,5 +51,6 @@ public class LibrariesFragment extends Fragment {
         arrayList.add(RETROFIT);
         arrayList.add(FAN);
         arrayList.add(EXO_PLAYER);
+        arrayList.add(BIOMETRIC);
     }
 }
