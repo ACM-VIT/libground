@@ -12,4 +12,6 @@ public final class Constants {
 
     public static final String EXO_PLAYER = "ExoPlayer";
 
+    public static final String BIOMETRIC = "Biometric Prompt";
+
 }

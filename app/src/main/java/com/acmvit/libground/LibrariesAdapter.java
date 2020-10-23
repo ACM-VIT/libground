@@ -15,6 +15,7 @@ import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
+import static com.acmvit.libground.Constants.BIOMETRIC;
 import static com.acmvit.libground.Constants.EXO_PLAYER;
 import static com.acmvit.libground.Constants.FAN;
 import static com.acmvit.libground.Constants.LOTTIE;
@@ -73,6 +74,9 @@ public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.View
                 break;
             case EXO_PLAYER:
                 intent = new Intent(context, ExoPlayerActivity.class);
+                break;
+            case BIOMETRIC:
+                intent = new Intent(context, BiometricActivity.class);
                 break;
             default:
                 intent = new Intent(context, MainActivity.class);

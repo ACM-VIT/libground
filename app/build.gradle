@@ -60,4 +60,7 @@ dependencies {
 
     //ExoPlayer
     implementation 'com.google.android.exoplayer:exoplayer:2.12.0'
+
+    //Biometric
+    implementation "androidx.biometric:biometric:1.0.1"
 }
